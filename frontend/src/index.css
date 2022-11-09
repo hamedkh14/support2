@@ -1,8 +1,31 @@
+@font-face {
+  font-family: 'yekan';
+  src: url('./../public/fonts/Yekan.eot?#') format('eot'),  
+     url('./../public/fonts/Yekan.woff') format('woff'),
+     url('./../public/fonts/Yekan.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+  
+@font-face {
+    font-family: 'yekan';
+    src:url('./../public/fonts/Renner.eot?#iefix') format('embedded-opentype'),
+    url('./../public/fonts/Renner.ttf') format('truetype'),
+    url('./../public/fonts/Renner.woff') format('woff');
+  unicode-range: U+0030-0039, U+0041-007a;
+}
+  
+@font-face {
+    font-family: englogo;
+    src:url('./../public/fonts/Satisfy-Regular.ttf') format('woff');
+}
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  font-family: yekan;
 }
 
 * {

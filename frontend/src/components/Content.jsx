@@ -1,7 +1,14 @@
 import React from "react";
+import { ContentStyle } from "../styles/style";
 
 function Content() {
-  return <div>Content</div>;
+  return (
+    <>
+      <ContentStyle>
+        sdfsdf
+      </ContentStyle>
+    </>
+  );
 }
 
 export default Content;

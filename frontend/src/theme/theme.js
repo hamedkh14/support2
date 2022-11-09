@@ -1,26 +1,30 @@
 import { orange } from "@mui/material/colors";
 import { createTheme } from "@mui/material/styles";
+import yekan from "../fonts/Yekan.woff";
 
 const theme = createTheme({
-  direction: 'rtl',
+  direction: "rtl",
   palette: {
     mode: "dark",
     primary: {
-      main: '#EC625F'
+      main: "#EC625F",
     },
     secondary: {
       main: orange[500],
     },
     background: {
-      bgMain: "#1F1F1F",
-      secondary: "#121212",
-      
-      // bgMain: "#393E46",
-      // secondary: "#222831",
+      bgMain: "#161b22",
+      secondary: "#0D1117",
     },
     border: {
-      primary: '#383838'
-    }
+      primary: "#21262d",
+    },
+    text: {
+      secondary: "#94A3B8",
+    },
+  },
+  typography: {
+    fontFamily: ["yekan"].join(","),
   },
 });
 

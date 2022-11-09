@@ -9,41 +9,42 @@ export const NavbarStyle = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const ContentStyle = styled(Box)(({theme}) => ({
+export const ContentStyle = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.background.secondary,
-  width: '100%',
-  borderRadius: '30px',
+  width: "100%",
+  borderRadius: "30px",
   boxShadow: theme.shadows[2],
-  padding: '0 25px'
+  padding: "0 25px",
 }));
 
-export const NavbarLogoStyle = styled(Box)(({theme}) => ({
-  gap: '10px',
-  height: '80px',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+export const NavbarLogoStyle = styled(Box)(({ theme }) => ({
+  gap: "10px",
+  height: "80px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
   borderBottom: `1px solid ${theme.palette.border.primary}`,
+  marginBottom: "15px",
 
   // Logo icon
-  '& .MuiTypography-body1': {
+  "& .MuiTypography-body1": {
     backgroundColor: theme.palette.primary.main,
-    width: '35px',
-    height: '35px',
+    width: "35px",
+    height: "35px",
     color: theme.palette.text.primary,
-    fontSize: '35px',
-    fontFamily: 'englogo',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    fontSize: "35px",
+    fontFamily: "englogo",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     padding: 0,
-    borderRadius: '4px',
+    borderRadius: "4px",
   },
 
   // Logo text
-  '& .MuiTypography-body2': {
+  "& .MuiTypography-body2": {
     color: theme.palette.text.primary,
-    fontSize: '25px',
+    fontSize: "25px",
     // fontFamily: 'englogo',
-  }
+  },
 }));

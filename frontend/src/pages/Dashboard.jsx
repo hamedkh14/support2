@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, useTheme } from "@mui/material";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar/Navbar";
 import Content from "../components/Content";
 
 function Dashboard() {
@@ -12,7 +12,7 @@ function Dashboard() {
       backgroundColor: theme.palette.background.bgMain,
       width: "100%",
       height: "100vh",
-      boxSizing: 'border-box',
+      boxSizing: "border-box",
       [theme.breakpoints.down("md")]: {
         padding: `${theme.spacing(2)}`,
       },
@@ -22,12 +22,12 @@ function Dashboard() {
     },
     stack: {
       [theme.breakpoints.down("md")]: {
-        height: `calc(100vh - ${theme.spacing(4)})`
+        height: `calc(100vh - ${theme.spacing(4)})`,
       },
       [theme.breakpoints.up("md")]: {
         height: `calc(100vh - ${theme.spacing(4)})`,
       },
-    }
+    },
   };
 
   return (

@@ -11,7 +11,7 @@ import React from "react";
 function NavbarItem({ icon: Icon, text, selecting }) {
   const ListItemButtonStyle = styled(ListItemButton)(({ theme }) => ({
     color: theme.palette.text.secondary,
-    borderRadius: "5px",
+    borderRadius: theme.shape.borderRadius,
     background: "none",
     marginTop: "5px",
     "&.Mui-selected": {

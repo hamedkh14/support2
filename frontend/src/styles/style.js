@@ -9,17 +9,9 @@ export const NavbarStyle = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const ContentStyle = styled(Box)(({ theme }) => ({
-  backgroundColor: theme.palette.background.secondary,
-  width: "100%",
-  borderRadius: "30px",
-  boxShadow: theme.shadows[2],
-  padding: "0 25px",
-}));
-
 export const NavbarLogoStyle = styled(Box)(({ theme }) => ({
   gap: "10px",
-  height: "80px",
+  height: "65px",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",

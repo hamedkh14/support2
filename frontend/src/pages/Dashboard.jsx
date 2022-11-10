@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Stack, useTheme } from "@mui/material";
 import Navbar from "../components/navbar/Navbar";
-import Content from "../components/Content";
+import Main from "../components/Main";
 
 function Dashboard() {
   const theme = useTheme();
@@ -35,7 +35,7 @@ function Dashboard() {
       <Box sx={styles.box}>
         <Stack direction="row" spacing={2} sx={styles.stack}>
           <Navbar />
-          <Content />
+          <Main />
         </Stack>
       </Box>
     </>
